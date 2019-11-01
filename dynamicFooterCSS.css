@@ -1,0 +1,86 @@
+      .dynamicFooter {
+        display: flex;
+        align-items: center;
+        height: 77px;
+      }
+
+      .dynamicFooter__section { font-size: 0; }
+
+      .dynamicFooter__section--text {
+        flex: 1;
+        overflow: hidden;
+        padding-right: 5px;
+        color: var(--dynamic-color);
+      }
+
+      .dynamicFooter__section--logos {
+        display: flex;
+        align-items: center;
+      }
+
+      .dynamicSocial { font-size: 0; }      
+
+      .dynamicSocial--withIcon {
+        display:flex;
+        align-items: center;
+      }
+
+      .dynamicSocial__icon {
+        width: 15pt;
+        margin-right: 3pt;
+      }
+
+      .dynamicSocial__inner {
+        overflow: hidden;
+        flex: 1;
+      }      
+
+      .dynamicSocial__text {
+        font-size: 20px;
+        line-height: 1.1em;
+        word-break: break-word;
+      }    
+      
+      .has-support-logo .dynamicSocial__text { font-size: 16px; }
+      .has-support-logo.has-portrait-support-logo .dynamicSocial__text { font-size: 18px; }
+
+      .dynamicSocial__text * { line-height: 1.1em; }
+
+      .dynamicSocial__text--twitter { font-weight: 900; }      
+
+      .dynamicLogo {
+        font-size: 0;
+        padding-left: 20px;
+      }
+
+      .has-support-logo .dynamicLogo {
+        padding-right: 18.75pt;
+        border-right: 1px solid #000;
+      }
+
+      .dynamicLogo__img {
+        width: 127.97px;
+        height: 77px;
+        object-fit: contain;
+      }
+
+      .has-support-logo .dynamicLogo__img {
+        width: 91.98px;
+        height: 55.34px;
+      }      
+      
+      .has-support-logo.has-portrait-support-logo .dynamicLogo__img {
+        width: 101.98px;
+        height: 61.36px;
+      }
+
+      .dynamicSupportLogo {
+        max-width: 95px;
+        max-height: 55.34px;
+        margin-left: 25px;
+      }
+
+      .has-portrait-support-logo .dynamicSupportLogo { 
+        max-width: 85px;
+        max-height: 81px; 
+      }
