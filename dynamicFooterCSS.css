@@ -1,7 +1,7 @@
 .dynamicFooter {
     display: flex;
     align-items: center;
-    height: 77px;
+    height: 1.869rem;
 }
 
 .dynamicFooter__section {
@@ -11,7 +11,7 @@
 .dynamicFooter__section--text {
     flex: 1;
     overflow: hidden;
-    padding-right: 5px;
+    padding-right: 0.121rem;
     color: var(--dynamic-color);
 }
 
@@ -30,8 +30,8 @@
 }
 
 .dynamicSocial__icon {
-    width: 15pt;
-    margin-right: 3pt;
+    width: 0.485rem;
+    margin-right: 0.097rem;
 }
 
 .dynamicSocial__inner {
@@ -40,17 +40,17 @@
 }
 
 .dynamicSocial__text {
-    font-size: 20px;
+    font-size: 0.485rem;
     line-height: 1.1em;
     word-break: break-word;
 }
 
 .has-support-logo .dynamicSocial__text {
-    font-size: 16px;
+    font-size: 0.388rem;
 }
 
 .has-support-logo.has-portrait-support-logo .dynamicSocial__text {
-    font-size: 18px;
+    font-size: 0.437rem;
 }
 
 .dynamicSocial__text * {
@@ -63,37 +63,37 @@
 
 .dynamicLogo {
     font-size: 0;
-    padding-left: 20px;
+    padding-left: 0.485rem;
 }
 
 .has-support-logo .dynamicLogo {
-    padding-right: 18.75pt;
-    border-right: 1px solid #000;
+    padding-right: 0.607rem;
+    border-right: 0.024rem solid #000;
 }
 
 .dynamicLogo__img {
-    width: 127.97px;
-    height: 77px;
+    width: 3.106rem;
+    height: 1.869rem;
     object-fit: contain;
 }
 
 .has-support-logo .dynamicLogo__img {
-    width: 91.98px;
-    height: 55.34px;
+    width: 2.233rem;
+    height: 1.343rem;
 }
 
 .has-support-logo.has-portrait-support-logo .dynamicLogo__img {
-    width: 101.98px;
-    height: 61.36px;
+    width: 2.475rem;
+    height: 1.489rem;
 }
 
 .dynamicSupportLogo {
-    max-width: 95px;
-    max-height: 55.34px;
-    margin-left: 25px;
+    max-width: 2.306rem;
+    max-height: 1.343rem;
+    margin-left: 0.607rem;
 }
 
 .has-portrait-support-logo .dynamicSupportLogo {
-    max-width: 85px;
-    max-height: 81px;
+    max-width: 2.063rem;
+    max-height: 1.966rem;
 }
